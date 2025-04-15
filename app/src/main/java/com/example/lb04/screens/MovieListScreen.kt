@@ -30,7 +30,10 @@ fun MovieListScreen() {
                     newMovie = ""
                 }
             },
-            modifier = Modifier.align(Alignment.End)
+            modifier = Modifier
+                .align(Alignment.End)
+                .padding(horizontal = 12.dp),
+            colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.tertiary)
         ) {
             Text("Add Movie")
         }
