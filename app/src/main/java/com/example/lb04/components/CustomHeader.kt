@@ -18,7 +18,8 @@ fun CustomHeader(title: String) {
     ) {
         Text(
             text = title,
-            fontSize = 30.sp,
+            fontSize = 36.sp, // Estilo actualizado
+            color = MaterialTheme.colorScheme.primary,
             style = MaterialTheme.typography.titleLarge
         )
         Divider(modifier = Modifier.padding(top = 8.dp))
